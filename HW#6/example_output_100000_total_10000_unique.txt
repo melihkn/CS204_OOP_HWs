@@ -1,0 +1,142 @@
+#######################################################################################
+HyperLogLog Using ax+b hash
+buckets: 2 HyperLogLog estimate: 1.8732
+buckets: 4 HyperLogLog estimate: 3.02918
+buckets: 8 HyperLogLog estimate: 5.81058
+buckets: 16 HyperLogLog estimate: 11.4855
+buckets: 32 HyperLogLog estimate: 23.0231
+buckets: 64 HyperLogLog estimate: 46.0959
+buckets: 128 HyperLogLog estimate: 92.2752
+buckets: 256 HyperLogLog estimate: 185.325
+buckets: 512 HyperLogLog estimate: 370.7
+buckets: 1024 HyperLogLog estimate: 742.179
+buckets: 2048 HyperLogLog estimate: 1484.41
+buckets: 4096 HyperLogLog estimate: 2969.58
+buckets: 8192 HyperLogLog estimate: 5939.84
+#######################################################################################
+#######################################################################################
+HyperLogLog Using MurMurHash
+buckets: 2 HyperLogLog estimate: 5117.58
+buckets: 4 HyperLogLog estimate: 12409.6
+buckets: 8 HyperLogLog estimate: 8769.08
+buckets: 16 HyperLogLog estimate: 7056.92
+buckets: 32 HyperLogLog estimate: 7573.65
+buckets: 64 HyperLogLog estimate: 9750.04
+buckets: 128 HyperLogLog estimate: 10221.7
+buckets: 256 HyperLogLog estimate: 9251.02
+buckets: 512 HyperLogLog estimate: 9282.73
+buckets: 1024 HyperLogLog estimate: 9789.57
+buckets: 2048 HyperLogLog estimate: 10120.1
+buckets: 4096 HyperLogLog estimate: 10286.4
+buckets: 8192 HyperLogLog estimate: 12032.7
+#######################################################################################
+#######################################################################################
+KMinVal Using ax + b hash
+buckets: 2 KMinVal estimate: 5.13635e+11
+buckets: 4 KMinVal estimate: 1.54085e+12
+buckets: 8 KMinVal estimate: 3.59501e+12
+buckets: 16 KMinVal estimate: 2.47732e+10
+buckets: 32 KMinVal estimate: 5.11944e+10
+buckets: 64 KMinVal estimate: 3.34564e+08
+buckets: 128 KMinVal estimate: 6.74408e+08
+buckets: 256 KMinVal estimate: 4.3543e+06
+buckets: 512 KMinVal estimate: 8.72468e+06
+buckets: 1024 KMinVal estimate: 56167.5
+buckets: 2048 KMinVal estimate: 26963.6
+buckets: 4096 KMinVal estimate: 9507.27
+buckets: 8192 KMinVal estimate: 10240.8
+#######################################################################################
+#######################################################################################
+KMinVal Using MurMurHash
+buckets: 2 KMinVal estimate: 10549.4
+buckets: 4 KMinVal estimate: 9519.3
+buckets: 8 KMinVal estimate: 7424.88
+buckets: 16 KMinVal estimate: 10551.7
+buckets: 32 KMinVal estimate: 8600.57
+buckets: 64 KMinVal estimate: 9580.37
+buckets: 128 KMinVal estimate: 9288.75
+buckets: 256 KMinVal estimate: 9280.87
+buckets: 512 KMinVal estimate: 9550.15
+buckets: 1024 KMinVal estimate: 9593.1
+buckets: 2048 KMinVal estimate: 9761.66
+buckets: 4096 KMinVal estimate: 10041.1
+buckets: 8192 KMinVal estimate: 9989.97
+#######################################################################################
+#######################################################################################
+BloomFilter using ax + b hash
+size: 64 k: 5 Inserted: 100 TP: 100 FP: 100
+size: 64 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 64 k: 5 Inserted: 1000 TP: 100 FP: 100
+size: 128 k: 5 Inserted: 100 TP: 100 FP: 82
+size: 128 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 128 k: 5 Inserted: 1000 TP: 100 FP: 100
+size: 256 k: 5 Inserted: 100 TP: 100 FP: 48
+size: 256 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 256 k: 5 Inserted: 1000 TP: 100 FP: 100
+size: 512 k: 5 Inserted: 100 TP: 100 FP: 10
+size: 512 k: 5 Inserted: 500 TP: 100 FP: 95
+size: 512 k: 5 Inserted: 1000 TP: 100 FP: 100
+size: 1024 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 1024 k: 5 Inserted: 500 TP: 100 FP: 61
+size: 1024 k: 5 Inserted: 1000 TP: 100 FP: 96
+size: 2048 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 2048 k: 5 Inserted: 500 TP: 100 FP: 23
+size: 2048 k: 5 Inserted: 1000 TP: 100 FP: 67
+size: 4096 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 4096 k: 5 Inserted: 500 TP: 100 FP: 8
+size: 4096 k: 5 Inserted: 1000 TP: 100 FP: 32
+size: 8192 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 8192 k: 5 Inserted: 500 TP: 100 FP: 8
+size: 8192 k: 5 Inserted: 1000 TP: 100 FP: 14
+size: 16384 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 16384 k: 5 Inserted: 500 TP: 100 FP: 7
+size: 16384 k: 5 Inserted: 1000 TP: 100 FP: 11
+size: 32768 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 32768 k: 5 Inserted: 500 TP: 100 FP: 7
+size: 32768 k: 5 Inserted: 1000 TP: 100 FP: 11
+size: 65536 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 65536 k: 5 Inserted: 500 TP: 100 FP: 7
+size: 65536 k: 5 Inserted: 1000 TP: 100 FP: 11
+size: 131072 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 131072 k: 5 Inserted: 500 TP: 100 FP: 7
+size: 131072 k: 5 Inserted: 1000 TP: 100 FP: 11
+#######################################################################################
+#######################################################################################
+BloomFilter using MurMurHash
+size: 64 k: 5 Inserted: 100 TP: 100 FP: 100
+size: 64 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 64 k: 5 Inserted: 1000 TP: 100 FP: 100
+size: 128 k: 5 Inserted: 100 TP: 100 FP: 89
+size: 128 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 128 k: 5 Inserted: 1000 TP: 100 FP: 100
+size: 256 k: 5 Inserted: 100 TP: 100 FP: 46
+size: 256 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 256 k: 5 Inserted: 1000 TP: 100 FP: 100
+size: 512 k: 5 Inserted: 100 TP: 100 FP: 9
+size: 512 k: 5 Inserted: 500 TP: 100 FP: 99
+size: 512 k: 5 Inserted: 1000 TP: 100 FP: 100
+size: 1024 k: 5 Inserted: 100 TP: 100 FP: 4
+size: 1024 k: 5 Inserted: 500 TP: 100 FP: 72
+size: 1024 k: 5 Inserted: 1000 TP: 100 FP: 100
+size: 2048 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 2048 k: 5 Inserted: 500 TP: 100 FP: 27
+size: 2048 k: 5 Inserted: 1000 TP: 100 FP: 72
+size: 4096 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 4096 k: 5 Inserted: 500 TP: 100 FP: 10
+size: 4096 k: 5 Inserted: 1000 TP: 100 FP: 27
+size: 8192 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 8192 k: 5 Inserted: 500 TP: 100 FP: 7
+size: 8192 k: 5 Inserted: 1000 TP: 100 FP: 14
+size: 16384 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 16384 k: 5 Inserted: 500 TP: 100 FP: 7
+size: 16384 k: 5 Inserted: 1000 TP: 100 FP: 12
+size: 32768 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 32768 k: 5 Inserted: 500 TP: 100 FP: 7
+size: 32768 k: 5 Inserted: 1000 TP: 100 FP: 11
+size: 65536 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 65536 k: 5 Inserted: 500 TP: 100 FP: 7
+size: 65536 k: 5 Inserted: 1000 TP: 100 FP: 11
+size: 131072 k: 5 Inserted: 100 TP: 100 FP: 3
+size: 131072 k: 5 Inserted: 500 TP: 100 FP: 7
+size: 131072 k: 5 Inserted: 1000 TP: 100 FP: 11
+#######################################################################################
